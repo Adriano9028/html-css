@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Almendra:ital,wght@0,400;0,700;1,400;1,700&family=Coiny&family=Fascinate&family=Luckiest+Guy&family=Merriweather:ital,opsz,wght@0,18..144,300..900;1,18..144,300..900&family=Passion+One:wght@400;700;900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100..900;1,100..900&family=Sriracha&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+     font-family: "Poppins",Arial, Helvetica, sans-serif;
+}
+.Interface{
+    max-width: 1280px;
+    margin: 0 auto;
+}
+header{
+    width: 100%;
+    background-color: gray;
+
+}
+.top-header > .Interface{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+.top-header .btn-social button{
+    width: 50px;
+    height: 50px;
+    font-size: 20px;
+    border-radius: 50%;
+    border: 1px solid black;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+.top-header{
+    background-color: white;
+    padding: 20px 4%;
+}
+.logo img{
+    max-width: 120px;
+    background-color: transparent;
+
+}
+.baixo-header nav ul{
+   list-style-type: none; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  
+}
+.baixo-header nav ul li a{
+    color: white;
+    padding: 20px 40px;
+    text-decoration: none;
+    font-size: 18px;
+    transition: 0.2s all;
+    display: block;
+    
+ 
+}
+.baixo-header a:hover{
+    background-color: red;
+    color: black;
+    box-shadow:  rgba(0, 0, 0, 0.35) 0px 5px 15px;;
+}
+.droper-hover{
+    position: relative;
+}
+.droper-hover .drop{
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.425);
+    width: 100%;
+    height: 0;
+    transition: 0.4s;
+    overflow: hidden;
+
+}
+.droper-hover .drop a{
+    padding: 20px;
+}
+.droper-hover:hover .drop{
+    height: 255px;
+}

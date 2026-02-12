@@ -1,0 +1,387 @@
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Merriweather", serif;
+}
+/*Meu menu*/
+header .interface{
+    border: 1px solid rgba(0, 0, 0, 0.308);
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 0;
+
+}
+header .logo img{
+    max-width: 70px;
+    margin-left: 100px;
+}
+.interface .menu nav ul li{
+    display: inline-block;
+    margin: 0 50px;
+    list-style: none; 
+   
+   
+}
+
+header .interface .menu nav ul li a{
+    color: black;
+    display: inline-block;
+    cursor: pointer;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 500;
+    padding: 18px;
+    border-radius: 20px; 
+     transition: .5s;
+    
+}
+ .menu nav ul li a:hover{
+    transform: scale(1.1);
+}
+
+/*sub-menu*/
+.drop-hover{
+   position: relative;
+}
+.drop-hover .hover{
+    position: absolute;
+    background-color: white;
+    width: 100%;
+    height: 0;
+    transition: 0.3s;
+    overflow: hidden;
+}
+ .drop-hover .hover a{
+    font-size: 15px;
+    font-weight: 400;
+    padding:0 ;
+}
+.drop-hover:hover .hover{
+    height: 255px;
+}
+
+
+/*Pesquisa*/
+.pesquisa{
+   
+   margin-right: 10px;
+}
+header .pesquisa input{
+    position: relative;
+    font-size: 18px;
+    width: 600px;
+    padding: 20px 50px;
+    border-radius: 20px;
+}
+header .pesquisa input::placeholder{
+    font-size: 20px;
+    text-indent: 40px;  
+}
+header .pesquisa  i{
+    position: absolute;
+    font-size: 25px;
+    padding-left: 20px;
+    padding-top: 20px;
+    z-index: 1200000;
+}
+/*Icones*/
+ .icons{
+    margin-right: 100px; 
+}
+.icons a {
+text-decoration: none;
+}
+ .icons a i{
+  margin: 0 20px;
+  font-size: 40px;
+  color: black;
+
+}
+
+/*Catalogo*/
+.img-catalogo img{
+    width: 150px;
+    height: 150px;
+    border: 1px solid black;
+    border-radius: 50%;
+    margin-top: 50px;
+    margin-left: 2500px;
+    background-color: white;
+}
+section.img-catalogo{
+    background-image: url(imagem/pexels-pietro-henricky-1289770821-30723814.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 1100px;
+  
+}
+.img-catalogo h1{
+    color: white;
+    margin-left: 2200px; 
+    font-size: 4em;
+    font-weight: 300;
+    padding-top: 200px;
+    padding-left: 20px;
+    line-height: 120px;
+    text-indent: 150px;
+   
+}
+.img-catalogo h1 p{
+    color:white ;
+}
+.img-catalogo h1 span{
+    font-weight: 800;  
+}
+
+/*novidade*/
+.novidades .titulo{
+    text-align: center;
+    margin-top: 300px;
+    font-size: 35px;
+    font-weight: 400;
+    padding-bottom: 60px;
+}
+.novidades .container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+ .container .produto-novidades img{
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    cursor: pointer;
+    width: 90%;
+    height: 50vh;
+    transition: transform 0.3s ease;
+ }
+ .container .produto-novidades img:hover{
+     opacity:.7;
+     transform: scale(1.1);
+ }
+ .produto-novidades p{
+    cursor: pointer;
+    margin-top: 30px;
+    font-size: 24px;
+    font-weight: 300;
+    line-height: 40px;
+ }
+ .produto-novidades p span{
+    font-weight: 800;
+ }
+ .produto-novidades p:hover{
+    text-decoration: underline;
+ }
+
+ /*Conjuntos*/
+ .conjuntos .btn-conferir{
+    cursor: pointer;
+    display: flex;
+    margin-top: 80px;
+    justify-content: center;
+    align-items: center;
+ }
+  .conjuntos .btn-conferir h1{
+    text-align: center;
+    margin-top: 300px;
+    font-size: 3em;
+    font-weight: 800;
+    color: white;
+  }
+  .conjuntos .btn-conferir  p{
+     font-size: 35px;
+    font-weight: 300;
+   
+  }
+  .conjuntos .btn-conferir button{
+    background-color: transparent;
+    color: white;
+    border: 2px solid white;
+    cursor: pointer;
+    margin-top: 40px;
+    font-size: 20px;
+    padding: 20px;
+    width: 250px;
+    border-radius: 20px;
+  }
+  .conjuntos .btn-conferir button:hover{
+    background-color: lightgray;
+    color: black;
+  }
+
+.btn-conferir .roupas-feminina{
+    background-image: url(imagem/pexels-henry-de-guzman-72935623-10612426.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 40vh;
+    width: 22%;
+}
+.btn-conferir .calças{
+    background-image: url(imagem/pexels-pietro-henricky-1289770821-35568701.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 40vh;
+    width: 22%;
+    margin: 0 80px;
+}
+.btn-conferir .roupas-masculina{
+    background-image: url(imagem/pexels-pietro-henricky-1289770821-30723813.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 40vh;
+    width: 22%;
+}
+/*Propaganda da logotipo*/
+section.logotipo{
+    background-color:#3ea3b5ea;
+    width: 80%;
+    height: 20vh;
+    margin-top: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 300px;
+}
+section.logotipo img{
+    width: 800px;
+    height: 273px;
+    margin-right: 750px;
+}
+section.logotipo h1{
+    color: white;
+    font-size: 3em;
+    margin-right: 400px;
+    margin-top: 40px;
+}
+section.logotipo  h1 span{
+   font-weight: 300;
+   font-size: 34px;
+   padding-left: 50px;
+}
+
+/*sessão masculino*/
+
+.sessao-masculino .titulo{
+    text-align: center;
+    margin-top: 150px;
+    font-size: 35px;
+    font-weight: 400;
+    padding-bottom: 60px;
+}
+.sessao-masculino .container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+
+/*bolsas*/
+ .bolsas .btn-conferir{
+    cursor: pointer;
+    display: flex;
+    margin-top: 200px;
+    justify-content: center;
+    align-items: center;
+ }
+  .bolsas .btn-conferir h1{
+    text-align: center;
+    margin-top: 300px;
+    font-size: 3em;
+    font-weight: 800;
+    color: white ;
+  }
+  .bolsas .btn-conferir  p{
+    font-size: 35px;
+    font-weight: 300;
+   
+  }
+  .bolsas .btn-conferir button{
+    background-color: transparent;
+    color: white;
+    border: 2px solid  white;
+    cursor: pointer;
+    margin-top: 40px;
+    font-size: 20px;
+    padding: 20px;
+    width: 250px;
+    border-radius: 20px;
+  }
+  .bolsas .btn-conferir button:hover{
+    background-color: lightgray;
+    color: black;
+  }
+
+.btn-conferir .bolsa01{
+    background-image: url(imagem/Imagem\ do\ WhatsApp\ de\ 2024-08-24\ à\(s\)\ 12.38.44_c78fb252.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 40vh;
+    width: 22%;
+}
+.btn-conferir .bolsa02{
+    background-image: url(imagem/Imagem\ do\ WhatsApp\ de\ 2024-08-25\ à\(s\)\ 19.26.54_9b7e4f0e.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 40vh;
+    width: 22%;
+    margin: 0 80px;
+}
+.btn-conferir .bolsa03{
+    background-image: url(imagem/pexels-straupelechit-2152443162-33853684.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 40vh;
+    width: 22%;
+}
+
+/*rodapé*/
+
+footer {
+    background-color: #0C2E2D;
+    width: 100%;
+    height: 50vh;
+    margin-top: 280px;
+
+}
+footer .rede-social{
+    text-align: center;
+    padding-top: 150px;
+}
+footer .rede-social h1{
+    color: #D7D0BB;
+    margin-bottom: 20px;
+    font-size: 2em;
+}
+footer .rede-social a i{
+    color: #D7D0BB;
+    display: inline-block;
+    padding: 5px;
+    font-size: 35px;
+    margin:  20px; 
+    transition: transform 0.3s ease;
+}
+footer .rede-social a i:hover{
+    opacity: .9;
+    transform: scale(1.1);
+    background-color: white;
+    color: black;
+}
+footer .informaçoes p{
+    color: #D7D0BB;
+    font-size: 20px;
+    margin-top: 90px;
+    padding: 0 30px;
+    
+}

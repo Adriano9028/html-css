@@ -1,0 +1,50 @@
+h1{
+    text-align: center;
+}
+body{
+    font-family: Arial;
+    background-color: rgb(36, 34, 34);
+    color: white;
+  
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+
+}
+a{
+    text-align: center;
+    color: white;
+}
+
+.imagem{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+.imagem img{
+    width: 400px;
+    height: auto;
+    border: 2px solid;
+}
+
+.curso img{
+   display: block;
+   margin-left: auto;
+   margin-right: auto;
+    width: 700px;
+    height: 600px;
+    gap: 10px;
+}
+.link-curso{
+    display: flex;
+    justify-content: center;
+    align-items:center ;
+
+}
+.seta-esquerda{
+    display: flex;
+    justify-content: center;
+    align-items:center ;
+}

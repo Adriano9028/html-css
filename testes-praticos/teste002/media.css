@@ -1,0 +1,76 @@
+@media screen and (max-width:650px){
+
+    header{
+        flex-direction: column;
+        
+    }
+      ul{
+        display: block;
+        align-items: center;
+        width: 300px;
+       
+    }
+    li{
+     margin: 15px;
+    }
+     a{
+       padding: 10px;
+       font-size: 26px;
+       font-weight: bold;
+    }
+    a:active{
+        color: violet;
+         border: none;
+    }
+    header img{
+        width: 100px;
+    }
+   
+    main{
+        flex-direction: column;
+        margin: auto;
+        
+    }
+    main h1{
+        font-size: 33px;
+        font-weight: bolder;
+        text-align: center;
+    }
+    p{
+        font-size: 17px;
+        margin-top: 40px;
+    }
+    article img{
+        display: flex;
+        
+        
+    }
+
+} 
+@media screen and (max-width:1248px){
+    ul{
+        text-align: center;
+        margin-right: 50px;
+    }
+    a{
+        font-size: 14px;
+    }
+     img{
+        width: 150px;
+
+    }
+
+    article img{
+        width: 87%;
+        height: 100%;
+        margin-left: 100px;
+    }
+
+    main h1{
+        font-size: 30px;
+    }
+    p{
+        font-size: 15px;
+    }
+}
+    

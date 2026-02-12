@@ -1,0 +1,155 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Merriweather", serif;
+}
+/* estilo menu*/
+.interface{
+    max-width: 1280px;
+    margin:0 auto;
+    
+}
+header{
+   width: 100%;
+   padding: 40px 0;
+   height: 190px;
+   border: 2px solid rgba(0, 0, 0, 0.562);
+   position: fixed;
+   top: 0;
+   left: 0;
+ 
+}
+
+header .interface{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+   
+}
+ .interface .logo img{
+    width: 150px;
+    margin-left: -500px;
+    
+}
+ section.menu-desktop nav ul{
+    list-style: none;
+ }
+  section.menu-desktop nav ul li{
+   display: inline-block;
+   margin: 0 60px ;
+
+  }
+ section.menu-desktop nav ul li a{
+    color: #D3AF37;
+    display: inline-block;
+    transition: .2s;
+    text-decoration: none;
+    font-size: 26px;
+    font-weight: bold;
+ }
+ section.menu-desktop nav ul li a:hover{
+    transform: scale(1.1);
+    text-decoration: underline;
+ }
+ header .btn-login button{
+    background-color:  #D3AF37;
+    cursor: pointer;
+    font-size: 20px;
+    width: 150px;
+    height: 40px;
+    border-radius: 10px;
+ }
+ header .btn-login button:active{
+   background-color: #ebc33d93;
+   color: white;
+ }
+
+ /*sub-menu*/
+ .drop-hover{
+   position: relative;
+ }
+ .drop-hover .equipamento{
+   position: absolute;
+   background-color:rgba(211, 211, 211, 0.76) ;
+   margin-top: 25px;
+   width: 100%;
+   height: 0;
+   transition: 0.2s;
+   overflow: hidden;
+ }
+ .drop-hover .equipamento a{
+  font-size: 23px;
+  font-weight: 200;
+  margin-top: 10px;
+  padding: 5px 20px;
+  color:black;
+ }
+
+ .drop-hover:hover .equipamento{
+  height: 255px;
+ }
+
+ .hero-site {
+   background-image: url(imagem/pexels-yuraforrat-13345811.jpg);
+   background-position: center;
+   background-repeat: no-repeat;
+   background-size: cover;
+   height: 100vh;
+ }
+ .interface .txt-hero h1{
+   color: #D3AF37;
+   padding-top: 500px;
+   font-size: 6em;
+   font-weight: 800;
+   margin-bottom: 80px;
+ 
+
+ }
+ .interface .txt-hero span{
+   font-weight: 400;
+ }
+ .hero-site .btn-play button{
+   color: #D3AF37;
+    cursor: pointer;
+   background-color: transparent;
+   border: 2px solid #D3AF37 ;
+   font-size: 20px;
+   font-weight: 800;
+   width: 400px;
+   height: 80px;
+   margin-top: 50px;
+   margin-bottom: 150px;
+  
+   padding-bottom: 10px;
+ }
+ .hero-site .btn-baixar button{
+   color: #D3AF37;
+   cursor: pointer;
+   background-color: transparent;
+   border: 2px solid #D3AF37;
+   font-size: 20px;
+   font-weight: 800;
+   width: 400px;
+   height: 80px;
+   padding-bottom: 10px;
+   
+ }
+ .hero-site .btn-baixar button:hover{
+  background-color: white;
+  color: black;
+ }
+ 
+ .hero-site .btn-play button:hover{
+  background-color:white;
+  color: black;
+ }
+ .hero-site .btn-baixar i{
+   font-size: 40px;
+   margin-right: 40px;
+ }
+ .hero-site .btn-play i{
+   font-size: 40px;
+   margin-right: 40px;
+ }
+

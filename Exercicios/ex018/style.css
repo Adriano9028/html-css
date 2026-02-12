@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Almendra:ital,wght@0,400;0,700;1,400;1,700&family=Luckiest+Guy&family=Merriweather:ital,opsz,wght@0,18..144,300..900;1,18..144,300..900&display=swap');
+
+    @font-face {
+            font-family:'atelier' ;
+            src: url("fontes/Atelier du Soleil.ttf") format('truetype');
+            font-weight:normal;
+            font-style:normal;
+            }
+    
+
+body{
+    font-family: "Luckiest guy",Arial, Helvetica, sans-serif;
+    background-image: linear-gradient(to top,yellow,red);
+   
+  
+}
+h1{
+    font-family: 'atelier', Times, serif;
+    font-size: 3em;
+    text-decoration: underline;
+}
+h2{
+    font-family: 'atelier', Times, serif;
+    text-decoration: underline;
+    font-size: 1em;
+}

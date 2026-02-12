@@ -1,0 +1,125 @@
+
+@media (max-width:1200px){
+
+header{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 70px;
+}
+
+nav{
+    margin-bottom: 30px;
+    margin-left: 70px;
+}
+header h1{
+    margin: 0 200px;
+}
+header ul{
+    text-align: center;
+}
+ li a{
+    display: none;
+}
+button{
+    width: 66px;
+    margin-left: 15px;
+    padding: 3px;
+    font-size: 12px;
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    max-width: 1300px;
+    min-width: 320px;
+}
+main img{
+    max-width: 100%;
+    height: 100vh;
+}
+main h1{
+    font-size: 28px;
+    margin: -30px -20px;
+    line-height: 3px;
+}
+i{
+    font-size: 1rem;
+    color: white;
+}
+
+
+.play{
+    width: 300px;
+   
+}
+.play a{
+    color: white;
+    font-size: 12px;
+     padding: 5px;
+    
+}
+.baixar{
+    margin-top: 350px;
+     width: 300px;
+}
+.baixar a{
+    color: white;
+    font-size: 12px;
+}
+
+}
+@media (max-width:1024px){
+    header h1{
+        margin-left: -300px;
+        font-size: 26px;
+        font-weight: bold;
+    }
+
+}
+
+@media (max-width:1440px){
+    header h1{
+        font-size: 17px;
+        margin-right: -80px;
+      
+        
+    }
+    li{
+        margin-right: 40px;
+
+    }
+    header a{
+        font-size: 13px;   
+    }
+    main h1{
+        font-size: 36px;
+        font-weight: bolder;
+    }
+    .play{
+        width: 300px;
+    }
+    .play a{
+        font-size: 12px;
+    }
+    .baixar{
+        width: 300px;
+        margin: 350px 0 0 50px;
+        height: 75px;
+
+    }
+    .baixar a{
+        font-size: 12px;
+    }
+
+}
+@media (max-width:1600px){
+    header h1{
+        font-size: 20px;
+        padding-left: 100px;
+    }
+    li a{
+        font-size: 14px;
+    }
+
+}
