@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pseudo elementos</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+
+        }
+        h1{
+            color: cornflowerblue;
+        }
+        ul{
+            list-style-type: none;
+
+        }
+        a{
+            color: red;
+        }
+        a::before{
+            color: black;
+            content:'⇒' ;
+            padding-right: 20px;
+           
+        }
+        a:hover{
+            background-color: bisque;
+            text-decoration: underline;
+        }
+
+
+    </style>
+</head>
+<body>
+    <h1><ins>Pseudo elementos</ins></h1>
+
+    <nav>
+        <ul>
+            <li><a href="https://www.youtube.com/" target="_blank " rel="external">Canal do youtube</a></li>
+
+        </ul>
+    </nav>
+    
+</body>
+</html>

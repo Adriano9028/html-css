@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Almendra:ital,wght@0,400;0,700;1,400;1,700&family=Fascinate&family=Luckiest+Guy&family=Merriweather:ital,opsz,wght@0,18..144,300..900;1,18..144,300..900&display=swap');
+body{
+    background-color:#f1dfc352;
+    font-family: "Fascinate";
+
+}
+h1#principal {
+    color: #7D705E;
+    text-align: center;
+    font-size: 40px;
+   
+    
+}
+.sub-titulo{
+    color: #7D705E;
+    text-align: center;
+    font-size: 20px; 
+ 
+}
+h2{
+    font-family:"Fascinate" ;
+    color: #FCB13F;
+}
+p{
+    text-indent: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+footer{
+    position: absolute;
+    width: 100%;
+    background-color: #7d705eb7;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    padding: 10px;
+    margin-top: 80px;
+    border: 1px solid black;
+    
+   
+}
+h2.lista{
+    text-align: center;
+  
+}
+nav ol{
+    color: #59819B;
+    text-align: center;
+    list-style-type: none;
+    display: grid;
+    grid-template-columns: 2fr 2fr;
+    margin: 50px;
+
+    
+   
+
+ 
+}
